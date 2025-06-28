@@ -206,3 +206,18 @@ MIT License
 ---
 
 **注意**: 运行示例代码前，请确保相关服务（如Redis、MySQL）已正确配置并运行。 
+
+
+
+
+# Others
+
+## vedio link
+https://www.bilibili.com/video/BV1NA411g7yf/?spm_id_from=333.1387.favlist.content.click&vd_source=ddaa7cd556186574491ea632ad077d44
+
+## 心得
+
+1. 使用场景
+用户级别异步编程，本质是事件循环，感觉和poll，epool很像；
+伪并发，其实质是，同一时刻，只能执行一个代码，但当执行到await操作的时候，可以执行其他函数的代码
+增加了单线程的并发量，利用率，并且开销小于多线程、多继承
